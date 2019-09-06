@@ -1,23 +1,31 @@
 # Travel Blog First Project
 
-### Discussion: Identifying Components
-
-Link to my website : http://udanyah-website.s3.ap-south-1.amazonaws.com/index.html
-
+### Into
+This is the README descriping the steps to create first project.
 The below are screenshots of the steps I followed to create the website 
 
 ### 1- Created the bucket
 
 ![Bucket](https://github.com/DanyaAlfageh/udacity-project-1/blob/master/Screenshots/s3bucket.png)
 
-### Lab: Identifying Components
+### 2- Uploaded the website files to the bucket
 
-Now, go to [Amtrak.com](https://www.amtrak.com/home) (note: right click to open in a new tab!). We want to look at the listing page, so put in any "From" (for example, New York - Penn Station), any "To" (for example, Boston - South Station), and pick any date. Hit "Find Trains". Now look at the listing page:
+![Bucket Contents](https://github.com/DanyaAlfageh/udacity-project-1/blob/master/Screenshots/s3bucketfiles.png)
 
-![Amtrak](https://git.generalassemb.ly/storage/user/5747/files/754db814-30fb-11e8-88c2-04ed98ab1834)
+### 3- Enabled Hosting in Bocket properties
 
-### Lab: Identifying Components
+![Web Hosting](https://github.com/DanyaAlfageh/udacity-project-1/blob/master/Screenshots/propertiesofBuvket%20Hosting.png)
 
-Now, go to [Amtrak.com](https://www.amtrak.com/home) (note: right click to open in a new tab!). We want to look at the listing page, so put in any "From" (for example, New York - Penn Station), any "To" (for example, Boston - South Station), and pick any date. Hit "Find Trains". Now look at the listing page:
+### 4- Updated Bucket policy and adjusted website name to my website
 
-![Amtrak](https://git.generalassemb.ly/storage/user/5747/files/754db814-30fb-11e8-88c2-04ed98ab1834)
+![Bucket Policy](https://github.com/DanyaAlfageh/udacity-project-1/blob/master/Screenshots/bucketpolicy.png)
+
+### 5- CloudFront has been congured to retrieve and distribute website les.
+
+![CloudFront](https://github.com/DanyaAlfageh/udacity-project-1/blob/master/Screenshots/CloudFront.png)
+
+### 6- Screenshot of the website
+
+Link to my website : http://udanyah-website.s3.ap-south-1.amazonaws.com/index.html
+
+![Screenshot of Website](https://github.com/DanyaAlfageh/udacity-project-1/blob/master/Screenshots/websitescreenshot.png)
