@@ -10,7 +10,7 @@ The below are screenshots of the steps I followed to create the website
 
 ### 2- Uploaded the website files to the bucket
 
-![Bucket Contents](https://github.com/DanyaAlfageh/udacity-project-1/blob/master/Screenshots/s3bucketfiles.png)
+![Bucket Contents](https://github.com/DanyaAlfageh/udacity-project-1/blob/master/Screenshots/Screenshot%20(9).png)
 
 ### 3- Enabled Hosting in Bocket properties
 
